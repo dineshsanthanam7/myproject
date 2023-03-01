@@ -1,0 +1,16 @@
+Abstraction Level 1: User Interface
+The notepad project's primary abstraction is its user interface. The user interacts with the notepad through a graphical user interface (GUI) that provides text input and output capabilities. The GUI consists of various components, such as a text editor, a toolbar, a menu bar, and various buttons and icons.
+
+Abstraction Level 2: Text Editing
+The text editor component of the notepad is responsible for handling user input and displaying the text on the screen. It allows users to create new documents, open existing ones, and save their work. The text editor also supports basic text formatting options such as font, size, and color.
+
+Abstraction Level 3: File Management
+The notepad project also includes a file management system that allows users to organize and manage their documents. This system includes features such as file creation, deletion, renaming, and searching.
+
+Abstraction Level 4: Data Persistence
+To ensure that users' work is not lost, the notepad project includes a data persistence layer that saves the user's documents to disk. This layer also handles loading documents from disk when the user opens them.
+
+Abstraction Level 5: Operating System Integration
+Finally, the notepad project is integrated with the underlying operating system to provide additional functionality such as printing, clipboard support, and file association. These features allow users to interact with the notepad in a way that is familiar and convenient.
+
+Overall, the notepad project abstraction is built upon several layers of functionality, each building upon the previous one to provide a rich and seamless user experience.
